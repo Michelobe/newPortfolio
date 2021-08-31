@@ -1,0 +1,18 @@
+
+#introSection{
+    height: 100vh;
+}
+#introSection .introLeftSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introSection .introRightSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#introSection .introRightSide ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

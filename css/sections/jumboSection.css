@@ -1,0 +1,20 @@
+#jumboSection{
+    height: 100vh;
+    overflow: hidden;
+}
+
+#jumboSection .jumboLeftSide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#jumboSection .jumboRightSide{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#jumboSection .jumboRightSide img{
+    height: 100%;
+}
