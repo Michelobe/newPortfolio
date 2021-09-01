@@ -2,15 +2,23 @@
 #introSection{
     height: 100vh;
 }
+
+/* LEFT SIDE OF PAGE */
 #introSection .introLeftSide{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#introSection .introLeftSide h1{
+    font-size: 2rem;
+}
+
+/* RIGHT SIDE OF PAGE */
 #introSection .introRightSide{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: white;
 }
 #introSection .introRightSide ul{
     display: grid;

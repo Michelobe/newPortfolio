@@ -1,16 +1,21 @@
 #techSection{
     height: 100vh;
 }
+
+/* LEFT SIDE OF PAGE */
 #techSection .techLeftSide{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
 }
+
+/* RIGHT SIDE OF PAGE */
 #techSection .techRightSide{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: white;
 }
 #techSection .techRightSide ul{
     font-size: 2rem;

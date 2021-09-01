@@ -3,17 +3,29 @@
     overflow: hidden;
 }
 
+/* LEFT SIDE OF PAGE */
 #jumboSection .jumboLeftSide{
     height: 100%;
     width: 100%;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
+#jumboSection .jumboLeftSide .jumboTitle h1{
+    font-size: 2rem;
+}
+#jumboSection .jumboLeftSide .jumboTitle h3{
+    font-size: 1rem;
+}
+
+
+/* RIGHT SIDE OF PAGE */
 #jumboSection .jumboRightSide{
     height: 100%;
     width: 100%;
     overflow: hidden;
+    background: white;
 }
 #jumboSection .jumboRightSide img{
     height: 100%;

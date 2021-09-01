@@ -5,7 +5,9 @@
 
 body{
     background: url("../images/backgroundDesign.svg");
-    background-size: 58rem;
+    background-size: 53rem;
+    background-color: #27e6f09f;
+    background-attachment: fixed;
 }
 
 section{
