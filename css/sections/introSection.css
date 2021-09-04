@@ -1,7 +1,6 @@
 
-#introSection{
-    height: 100vh;
-}
+/* #introSection{
+} */
 
 /* LEFT SIDE OF PAGE */
 #introSection .introLeftSide{
@@ -9,16 +8,20 @@
     justify-content: center;
     align-items: center;
 }
-#introSection .introLeftSide h1{
-    font-size: 2rem;
-}
 
 /* RIGHT SIDE OF PAGE */
 #introSection .introRightSide{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 8rem 5rem;
     background: white;
+    font-size: 1.1rem;
+    line-height: 2;
+    font-weight: 300;
+}
+#introSection .introRightSide span{
+    font-weight: 700;
 }
 #introSection .introRightSide ul{
     display: grid;

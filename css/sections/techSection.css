@@ -1,6 +1,6 @@
-#techSection{
-    height: 100vh;
-}
+
+/* #techSection{
+} */
 
 /* LEFT SIDE OF PAGE */
 #techSection .techLeftSide{
@@ -12,14 +12,20 @@
 
 /* RIGHT SIDE OF PAGE */
 #techSection .techRightSide{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background: white;
-}
-#techSection .techRightSide ul{
+    padding: 8rem 5rem;
     font-size: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+}
+#techSection .techRightSide ul li{
+    font-weight: 600;
+    position: relative;
+}
+#techSection .techRightSide ul li svg{
+    font-weight: 600;
+    position: absolute;
+    z-index: 0;
+}
+#techSection .techRightSide ul li span{
+    margin-left: 1rem;
+    z-index: 6;
 }

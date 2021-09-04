@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;700&display=swap');
 @import "reset.css";
 @import "./sections/jumboSection.css";
 @import "./sections/introSection.css";
@@ -8,9 +10,13 @@ body{
     background-size: 53rem;
     background-color: #27e6f09f;
     background-attachment: fixed;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 section{
     display: grid;
     grid-template-columns: 50% 50%;
+}
+section h1{
+    font-size: 2.5rem;
 }
